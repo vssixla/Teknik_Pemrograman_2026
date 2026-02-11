@@ -56,3 +56,36 @@ public class Bilangan {
     }
 }
 ```
+
+## Input
+5
+-150
+150000
+1500000000
+213333333333333333333333333333333333
+-1000
+
+## Output
+-150 can be fitted in:
+* short
+* int
+* long
+
+150000 can be fitted in:
+* int
+* long
+
+1500000000 can be fitted in:
+* int
+* long
+
+213333333333333333333333333333333333 can't be fitted anywhere.
+
+-1000
+-1000 can be fitted in:
+* short
+* int
+* long
+
+## Solusi
+Solusi untuk permasalahan ini dapat dilakukan dengan membaca setiap angka masukan sebagai string terlebih dahulu, kemudian dikonversi menjadi BigInteger (memproses angka yang sangat besar tanpa terjadi overflow). Jika angka tersebut masuk ke dalam rentang sebuah tipe data, maka tipe data tersebut dicatat sebagai tipe yang dapat menyimpan angka tersebut. Proses ini diulang untuk semua tipe data agar dapat menampilkan semua tipe yang mampu menampung angka tersebut, diurutkan dari ukuran terkecil hingga terbesar.  Apabila angka masukan tidak termasuk dalam rentang tipe data manapun, maka program akan menampilkan pesan bahwa angka tersebut “can't be fitted anywhere”. 
