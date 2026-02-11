@@ -14,4 +14,4 @@ class FloatingPoint {
 93
 
 ## Analisis Permasalahan
-Permasalahan berkaitan dengan pembulatan nilai x, x memiliki nilai 92.98 yang merupakan tipe bilangan double. Ketika fungsi Math.round(x) dijalankan, nilai tersebut akan dibulatkan ke bilangan bulat terdekat, karena nilai desimal 0.98 lebih besar dari 0.5, maka nilai akan dibulatkan ke atas. 
+Pada program diatas menggunakan fungsi matematika, yaitu Math.round(), dan ketika program tersebut di run, program akan membulatkan sebuah bilangan. 
