@@ -91,5 +91,16 @@ public class Bilangan {
 * int
 * long
 
-## Solusi
-Solusi untuk permasalahan ini dapat dilakukan dengan membaca setiap angka masukan sebagai string terlebih dahulu, kemudian dikonversi menjadi BigInteger (memproses angka yang sangat besar tanpa terjadi overflow). Jika angka tersebut masuk ke dalam rentang sebuah tipe data, maka tipe data tersebut dicatat sebagai tipe yang dapat menyimpan angka tersebut. Proses ini diulang untuk semua tipe data agar dapat menampilkan semua tipe yang mampu menampung angka tersebut, diurutkan dari ukuran terkecil hingga terbesar.  Apabila angka masukan tidak termasuk dalam rentang tipe data manapun, maka program akan menampilkan pesan bahwa angka tersebut “can't be fitted anywhere”. 
+## Analisis Permasalahan
+Dalam bahasa pemrograman Java, terdapat delapan tipe data primitive yang salah satunya digunakan untuk menyimpan objek bilangan bulat, yaitu byte, short, int, dan long. Setiap tipe data ini memiliki kapasitas penyimpanan yang berbeda, yang ditentukan oleh jumlah bit yang digunakan. 
+	Diketahui:
+•	byte menggunakan 8 bit sehingga dapat menyimpan bilangan dari -128 hingga 127
+•	short menggunakan 16 bit dengan rentang -32.768 hingga 32.767
+•	int menggunakan 32 bit dengan rentang -2.147.483.648 hingga 2.147.483.647
+•	long menggunakan 64 bit dengan rentang -9.223.372.036.854.775.808 hingga 9.223.372.036.854.775.807
+	Pemasalahan ini muncul ketika akan menginputkan suatu bilangan bulat, yang mana nilainya bisa sangat besar ataupun sangat kecil, sehingga tidak semua tipe data mampu menyimpan nilai angka tersebut. Jika nilai angka yang diberikan melebihi kapasitas tipe data yang digunakan, maka akan terjadi overflow atau program gagal memproses angka dengan benar.
+
+## Analisis Solusi 
+Untuk mengatasi masalah ini, diperlukan sebuah mekanisme untuk menentukan tipe data primitif terkecil yang dapat menampung angka input dengan tepat, atau menentukan jika angka tersebut berada di luar kapasitas semua tipe data yang tersedia. 
+	Solusi untuk permasalahan ini dapat dilakukan dengan membaca setiap angka masukan sebagai string terlebih dahulu, kemudian dikonversi menjadi BigInteger (memproses angka yang sangat besar tanpa terjadi overflow). Jika angka tersebut masuk ke dalam rentang sebuah tipe data, maka tipe data tersebut dicatat sebagai tipe yang dapat menyimpan angka tersebut. Proses ini diulang untuk semua tipe data agar dapat menampilkan semua tipe yang mampu menampung angka tersebut, diurutkan dari ukuran terkecil hingga terbesar.  Apabila angka masukan tidak termasuk dalam rentang tipe data manapun, maka program akan menampilkan pesan bahwa angka tersebut “can't be fitted anywhere”. 
+	Dengan pendekatan ini, program mampu menangani berbagai kasus angka, baik yang kecil maupun yang sangat besar, dan memberikan output yang sesuai dengan format yang diminta. 
