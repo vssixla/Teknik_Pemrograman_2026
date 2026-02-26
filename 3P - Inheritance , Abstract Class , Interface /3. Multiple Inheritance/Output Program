@@ -1,0 +1,11 @@
+Active code page: 65001
+
+D:\ALIA POLBAN\SEMESTER 2\TEKNIK PEMROGRAMAN\P_W3_KARYAWAN>cd "d:\ALIA POLBAN\SEMESTER 2\TEKNIK PEMROGRAMAN\P_W3_KARYAWAN\" && javac EmployeeTest.java && java EmployeeTest
+Picked up JAVA_TOOL_OPTIONS: -Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8
+Picked up JAVA_TOOL_OPTIONS: -Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8
+Antonio Rossi 2100000.0 1989
+Maria Bianchi 2625000.0 1991
+Isabel Vidal 3150000.0 1993
+
+=== INSTRUKSI SATU (A) ===
+Hasil compare: -1
