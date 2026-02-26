@@ -1,0 +1,7 @@
+D:\ALIA POLBAN\SEMESTER 2\TEKNIK PEMROGRAMAN\P_W3_LINGKARAN>cd "d:\ALIA POLBAN\SEMESTER 2\TEKNIK PEMROGRAMAN\P_W3_LINGKARAN\" && javac TestCylinder.java && java TestCylinder
+Picked up JAVA_TOOL_OPTIONS: -Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8
+Picked up JAVA_TOOL_OPTIONS: -Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8
+Cylinder: radius=1.0 height=1.0 base area=12.566370614359172 volume=3.141592653589793
+Cylinder: radius=1.0 height=10.0 base area=69.11503837897544 volume=31.41592653589793
+Cylinder: radius=2.0 height=10.0 base area=150.79644737231007 volume=125.66370614359172
+Cylinder: subclass of Circle[radius=1.0 color=red] height=1.0
