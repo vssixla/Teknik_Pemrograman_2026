@@ -1,1 +1,26 @@
+D:\ALIA POLBAN\SEMESTER 2\TEKNIK PEMROGRAMAN\P_W3_HirarkiKelasShape>cd "d:\ALIA POLBAN\SEMESTER 2\TEKNIK PEMROGRAMAN\P_W3_HirarkiKelasShape\" && javac TestShape.java && java TestShape
+Picked up JAVA_TOOL_OPTIONS: -Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8
+Picked up JAVA_TOOL_OPTIONS: -Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8
+A Shape with color of green and filled
+Color: green
+Filled: true
+A Shape with color of blue and Not filled
+After change:
+A Shape with color of red and filled
+
+=== TEST CIRCLE ===
+A Circle with radius=2.5, which is a subclass of A Shape with color of red and filled
+Area: 19.634954084936208
+Perimeter: 15.707963267948966
+
+
+=== TEST RECTANGLE ===
+A Rectangle with width=2.0 and length=3.0, which is a subclass of A Shape with color of blue and Not filled
+Area: 6.0
+Perimeter: 10.0
+
+=== TEST SQUARE ===
+A Square with side=4.0, which is a subclass of A Rectangle with width=4.0 and length=4.0, which is a subclass of A Shape with color of yellow and filled
+Area: 16.0
+Perimeter: 16.0
 
